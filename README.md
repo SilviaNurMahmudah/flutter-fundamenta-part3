@@ -1,16 +1,19 @@
 # flutter_fundamental_3
 
-A new Flutter project.
+SILVIA NUR MAHMUDAH
 
-## Getting Started
+## Praktikum 1
+onTap
+![Screenshot flutter_fundamental_3](images/01.jpg)
 
-This project is a starting point for a Flutter application.
+onDoubleTap
+![Screenshot flutter_fundamental_3](images/02.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+onLongPress
+![Screenshot flutter_fundamental_3](images/03.jpg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Praktikum 2
+![Screenshot flutter_fundamental_3](images/04.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Praktikum 3
+![Screenshot flutter_fundamental_3](images/05.png)
