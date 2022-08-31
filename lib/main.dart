@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fundamental_3/basic_widget/form.dart';
 import 'package:flutter_fundamental_3/basic_widget/image_widget.dart';
 
 void main() {
@@ -46,19 +47,24 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: GestureDetector(
-            // onTap: _incrementCounter,
-            // onDoubleTap: _incrementCounter,
-            onLongPress: _incrementCounter,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                const MyImageWidget(),
-                Text(
-                  '$_counter',
-                  style: Theme.of(context).textTheme.headline4,
-                ),
-              ],
-            )),
+          // onTap: _incrementCounter,
+          // onDoubleTap: _incrementCounter,
+          // onLongPress: _incrementCounter,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              // const MyImageWidget(),
+              const Text(
+                'You have pushed the button this many times:',
+              ),
+              Text(
+                '$_counter',
+                style: Theme.of(context).textTheme.headline4,
+              ),
+              const FormContoh(),
+            ],
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
